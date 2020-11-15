@@ -1,4 +1,6 @@
+# CTEC 121
 # Dictionaries
+# 05_dictionary_example_1.py
 # Use Dictionaries to store Key / Value pairs
 
 # create an empty dictionary

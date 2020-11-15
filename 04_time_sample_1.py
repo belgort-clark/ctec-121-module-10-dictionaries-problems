@@ -1,4 +1,5 @@
-# timer.py
+# CTEC 121
+# 04_time_sample_1.py
 
 import time
 
@@ -10,11 +11,8 @@ seconds = 0
 if run == "yes":
     # Keep looping until seconds != 10
     while seconds != 10:
-        print(">",seconds)
+        print(">", seconds)
         # sleep for one second
         time.sleep(1)
         # increase seconds by 1
         seconds += 1
-
-
-

@@ -1,4 +1,5 @@
-# date_time_sample2.py
+# CTEC 121
+# 02_date_time_sample_2.py
 
 # import datetime library
 from datetime import datetime
