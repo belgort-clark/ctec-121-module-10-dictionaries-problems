@@ -27,8 +27,8 @@ def main():
 
     # loop thru items in the dictionary and print out their values
     print("Looping thru dictionary...")
-    for i, j in students.items():
-        print(i, j)
+    for student, language in students.items():
+        print(student, language)
 
     print()
 

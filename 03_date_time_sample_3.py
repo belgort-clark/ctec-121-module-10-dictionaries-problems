@@ -19,8 +19,7 @@ print(testDate)
 longAgo = now - timedelta(weeks=3)
 print(longAgo.date())
 
-# Seeing if one data is older than the other
-
+# Seeing if one date is older than the other
 if testDate > longAgo:
     print("testDate is after longAgo")
 
@@ -37,5 +36,5 @@ print(cal2)
 
 # Check for leap year
 # Returns true or false
-cal3 = calendar.isleap(2000)
+cal3 = calendar.isleap(2021)
 print(cal3)

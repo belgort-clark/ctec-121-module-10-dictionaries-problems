@@ -23,6 +23,8 @@ for i, j in students.items():
 
 # delete a key/value pair
 del students['Bruce Elgort']
+# rockGroups = ['Foghat','Led Zeppelin']
+# del rockGroups[0]
 
 # note that Bruce Elgort has been removed
 print(students)
@@ -32,6 +34,11 @@ print()
 print('Gayle Ujifusa' in students)
 print('Eric Powers' in students)
 print()
+
+# grades = [100, 99, 88, 50, 10]
+
+# if 100 in grades:
+#     print('somebody got a 100')
 
 # new dictionary of students
 students = {'Bruce': ['Male', 4.0, 'AAT'], 'Eric': ['Alien', 3.9, 'AA']}

@@ -16,10 +16,12 @@ now = datetime.now()
 # %y is the years last two digits
 # %Y is the full year
 
-# Fri Friday 03 06 2020
-print(now.strftime('%a %A %d %y %Y'))
+# Fri Friday 03 06 20 2020
+print(now.strftime('%a %A %m %d %y %Y'))
 # March 6, 2020
 print("{:%B %d, %Y}".format(now))
+
+print(f"Stoney: {now.strftime('%a %A %m %d %y %Y')}")
 
 # Now for time
 # %H for hours
